@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+body {font-family: 'NotoSansKR', '나눔고딕', 'NanumGothic', '맑은 고딕', '돋움', sans-serif; font-weight: 400; font-size: 13px; background-color: #2B323C; color: #fff;}
+#skip-nav {position: fixed; left: 0; top: -41px; width: 100%; line-height: 40px; text-align: center; font-size: 16px; color: #ffffff; background: rgba(0, 0, 0, 0.5); border-bottom: 1px solid rgba(255, 255, 255, 0.7); transition: top 0.3s; z-index: 100000;}
+#skip-nav:focus {top: 0;}
+
+
+.login-box {position: fixed; width: 450px; height: 400px; left: 50%; top: 50%; transform: translate(-50%, -50%); box-sizing: border-box; border-radius: 3px; background-color: #3B4654; box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.2); overflow: hidden;}
+.login-box h1 {font-size: 24px; text-align: center; margin: 40px auto 0 auto;}
+.login-box p {font-size: 18px; text-align: center; font-weight: 300; margin: 20px auto;}
+
+.login-box ul.login-form > li + li {margin-top: 6px;}
+.input-label {position: relative; left: 30px; padding-top: 5px; font-size: 14px; color: #2b2f33;}
+.input-label input {position: relative; display: block; box-sizing: border-box; outline: none; font: inherit; height: 3em; width: 85%; border-radius: 3px; padding: 0 3.4em 0 1em; border: 1px solid #434c59;; color: #2b2f33; background-color: #495463;}
+.input-label label {position: absolute; left: 1em; top: calc(50% + 2.5px); padding: 1px 4px; transform: translate(0, -50%); font-size: 1em; color: #ededed; opacity: 0.3;}
+.input-label input:focus + label {top: 5px; font-size: 0.8em; opacity: 1;}
+ul.check-list {position: relative; left: 30px;}
+ul.check-list li {float: left; margin: 5px 20px 10px 0;}
+
+.login-box ul.login-form a.login {display: inline-block; position: relative; left: 30px; margin-top: 20px; font-size: 16px; line-height: 2.6em; width: 85%; box-sizing: border-box; text-align: center; margin-top: 20px; background-color: #00b29c; color: #ffffff; border-radius: 3px;}
+
+
+/* input[type="checkbox"] {
+	background-color: #04A1B2;
+} */
+/* input[type="checkbox"] {
+  -webkit-appearance: none;
+  position: relative;
+  width: 13px;
+  height: 13px;
+  cursor: pointer;
+  outline: none !important;
+  border-radius: 2px;
+  background: #fff;
+}
+
+input[type="checkbox"]::before {
+  content: "\2713";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  overflow: hidden;
+  transform: scale(0) translate(-50%, -50%);
+  line-height: 1;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #04A1B2;
+  border-color: rgba(255, 255, 255, 0.3);
+  color: white;
+}
+
+input[type="checkbox"]:checked::before {
+  border-radius: 2px;
+  transform: scale(1) translate(-50%, -50%)
+} */
+
+
+.login-box ul.login-form a.login {display: inline-block; position: relative; left: 30px; margin-top: 20px; font-size: 16px; line-height: 2.6em; width: 85%; box-sizing: border-box; text-align: center; margin-top: 20px; background-color: #00b29c; color: #ffffff; border-radius: 3px;}
